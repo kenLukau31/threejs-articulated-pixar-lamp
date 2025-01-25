@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixar lamp</title>
+    <style>
+        body {
+            /* set margin to 0 and overflow to hidden, to use the complete page */
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+     <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three/examples/jsm/"
+          }
+        }
+    </script>
+
+    <script type="module" src="/Pixar_lamp.js"></script>
+</head>
+<body>
+    <button id="togglelight" style="position: absolute; top: 10px; left: 10px; z-index: 1000;">On/OFF</button>
+</body>
+</html>
