@@ -1,16 +1,11 @@
 # Pixar-Style Articulated Lamp – Three.js 💡
 
-## About the Project
-This project is a **3D animated articulated lamp** inspired by the iconic Pixar lamp, developed as part of the **Computer Graphics (Three.js)** course.
-
-The goal of the project was to explore **hierarchical modeling**, **animation**, and **lighting techniques** in a 3D environment using **Three.js**.  
-The lamp is composed of multiple articulated components that move in a coordinated way, simulating realistic mechanical behavior.
-
----
+This project is a **3D animated articulated lamp** inspired by the iconic Pixar lamp
 
 ## Project Objectives
 - Create a hierarchical 3D model with articulated joints
 - Implement coordinated animations between objects
+- hierarchical modeling in a 3D environment
 - Explore lighting and shadow projection in Three.js
 - Develop basic user interaction in a 3D scene
 
@@ -25,13 +20,6 @@ The lamp is composed of multiple articulated components that move in a coordinat
 
 ## Interactions
 - **Button:** Turn the lamp light on and off
-
----
-
-## Lighting & Shadows
-- Directional light emitted from the lamp head
-- Real-time shadow projection in the scene
-- Dynamic illumination of the environment and text
 
 ---
 
